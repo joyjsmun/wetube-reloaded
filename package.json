@@ -8,7 +8,7 @@
     "url": "git+https://github.com/joyjsmun/wetube-reloaded.git"
   },
   "scripts": {
-    "win": "node index.js"
+    "dev": "nodemon --exec babel-node index.js"
   },
   "author": "Joy M<joy.js.mun@gmail.com>",
   "license": "ISC",
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/joyjsmun/wetube-reloaded#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "nodemon": "^2.0.12"
   }
 }
