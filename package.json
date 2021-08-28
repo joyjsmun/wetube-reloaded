@@ -8,7 +8,7 @@
     "url": "git+https://github.com/joyjsmun/wetube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "Joy M<joy.js.mun@gmail.com>",
   "license": "ISC",
