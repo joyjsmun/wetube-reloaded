@@ -1,0 +1,22 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "The Wetube cloning by using NodeJS and Mongo ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyjsmun/wetube-reloaded.git"
+  },
+  "scripts": {
+    "win": "node index.js"
+  },
+  "author": "Joy M<joy.js.mun@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joyjsmun/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/joyjsmun/wetube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
